@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Reporte k6 - Auth</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; background-color: #f9f9f9; }
+h1, h2 { color: #2c3e50; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+th { background-color: #3498db; color: white; }
+tr:nth-child(even){background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+<h1>Reporte de Prueba de Carga - Servicio Auth</h1>
+<h2>Métricas principales</h2>
+<table>
+<tr><th>Métrica</th><th>Promedio</th><th>Mínimo</th><th>Mediana</th><th>Máximo</th><th>P90</th><th>P95</th></tr>
+<tr>
+        <td>http_req_receiving</td>
+        <td>0.44</td>
+        <td>0.03</td>
+        <td>0.09</td>
+        <td>49.38</td>
+        <td>0.28</td>
+        <td>0.92</td>
+        </tr><tr>
+        <td>http_req_blocked</td>
+        <td>0.69</td>
+        <td>0.00</td>
+        <td>0.00</td>
+        <td>299.24</td>
+        <td>0.00</td>
+        <td>0.00</td>
+        </tr><tr>
+        <td>http_req_duration</td>
+        <td>359.69</td>
+        <td>323.66</td>
+        <td>354.76</td>
+        <td>874.70</td>
+        <td>382.10</td>
+        <td>396.73</td>
+        </tr><tr>
+        <td>http_req_waiting</td>
+        <td>359.02</td>
+        <td>316.31</td>
+        <td>354.13</td>
+        <td>872.62</td>
+        <td>380.99</td>
+        <td>396.11</td>
+        </tr><tr>
+        <td>http_req_tls_handshaking</td>
+        <td>0.37</td>
+        <td>0.00</td>
+        <td>0.00</td>
+        <td>193.29</td>
+        <td>0.00</td>
+        <td>0.00</td>
+        </tr><tr>
+        <td>http_req_sending</td>
+        <td>0.22</td>
+        <td>0.05</td>
+        <td>0.13</td>
+        <td>28.87</td>
+        <td>0.28</td>
+        <td>0.44</td>
+        </tr><tr>
+        <td>iteration_duration</td>
+        <td>863.88</td>
+        <td>825.16</td>
+        <td>857.20</td>
+        <td>1376.20</td>
+        <td>886.89</td>
+        <td>905.63</td>
+        </tr><tr>
+        <td>http_req_duration{expected_response:true}</td>
+        <td>359.69</td>
+        <td>323.66</td>
+        <td>354.76</td>
+        <td>874.70</td>
+        <td>382.10</td>
+        <td>396.73</td>
+        </tr><tr>
+        <td>http_req_connecting</td>
+        <td>0.31</td>
+        <td>0.00</td>
+        <td>0.00</td>
+        <td>92.82</td>
+        <td>0.00</td>
+        <td>0.00</td>
+        </tr></table>
+<h2>Checks</h2>
+<table>
+<tr><th>Check</th><th>Éxito (%)</th><th>Iteraciones correctas</th><th>Iteraciones fallidas</th></tr>
+<tr>
+    <td>Status is 200 or 201</td>
+    <td>100.00</td>
+    <td>7027</td>
+    <td>0</td>
+    </tr><tr>
+    <td>Response time < 1500ms</td>
+    <td>100.00</td>
+    <td>7027</td>
+    <td>0</td>
+    </tr><tr>
+    <td>Response has token</td>
+    <td>100.00</td>
+    <td>7027</td>
+    <td>0</td>
+    </tr>
+</table>
+<h2>Resumen de iteraciones y TPS</h2>
+<p><strong>Iteraciones completadas:</strong> 7027</p>
+<p><strong>TPS promedio:</strong> 23.38</p>
+<p><strong>Duración promedio de iteración:</strong> 863.88 ms</p>
+<p><strong>Duración máxima de iteración:</strong> 1376.20 ms</p>
+
+<h2>Usuarios Virtuales (VUs)</h2>
+<p><strong>VUs mínimos:</strong> 1</p>
+<p><strong>VUs máximos:</strong> 25</p>
+
+<h2>Datos transferidos</h2>
+<p><strong>Data recibida:</strong> 3869.75 KB</p>
+<p><strong>Data enviada:</strong> 780.45 KB</p>
+
+</body>
+</html>

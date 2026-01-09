@@ -1,0 +1,139 @@
+
+          /\      |‾‾| /‾‾/   /‾‾/   
+     /\  /  \     |  |/  /   /  /    
+    /  \/    \    |     (   /   ‾‾\  
+   /          \   |  |\  \ |  (‾)  | 
+  / __________ \  |__| \__\ \_____/ .io
+
+  execution: local
+     script: scripts/login_load_test.js
+     output: -
+
+  scenarios: (100.00%) 1 scenario, 25 max VUs, 5m30s max duration (incl. graceful stop):
+           * default: Up to 25 looping VUs for 5m0s over 4 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+running (0m01.0s), 01/25 VUs, 0 complete and 0 interrupted iterations
+default   [   0% ] 01/25 VUs  0m01.0s/5m00.0s
+
+running (0m02.0s), 01/25 VUs, 2 complete and 0 interrupted iterations
+default   [   1% ] 01/25 VUs  0m02.0s/5m00.0s
+
+running (0m03.0s), 01/25 VUs, 3 complete and 0 interrupted iterations
+default   [   1% ] 01/25 VUs  0m03.0s/5m00.0s
+
+running (0m04.0s), 02/25 VUs, 4 complete and 0 interrupted iterations
+default   [   1% ] 02/25 VUs  0m04.0s/5m00.0s
+
+running (0m05.0s), 02/25 VUs, 6 complete and 0 interrupted iterations
+default   [   2% ] 02/25 VUs  0m05.0s/5m00.0s
+
+running (0m06.0s), 02/25 VUs, 8 complete and 0 interrupted iterations
+default   [   2% ] 02/25 VUs  0m06.0s/5m00.0s
+
+running (0m07.0s), 03/25 VUs, 11 complete and 0 interrupted iterations
+default   [   2% ] 03/25 VUs  0m07.0s/5m00.0s
+
+running (0m08.0s), 03/25 VUs, 14 complete and 0 interrupted iterations
+default   [   3% ] 03/25 VUs  0m08.0s/5m00.0s
+
+running (0m09.0s), 03/25 VUs, 17 complete and 0 interrupted iterations
+default   [   3% ] 03/25 VUs  0m09.0s/5m00.0s
+
+running (0m10.0s), 03/25 VUs, 21 complete and 0 interrupted iterations
+default   [   3% ] 03/25 VUs  0m10.0s/5m00.0s
+
+running (0m11.0s), 04/25 VUs, 24 complete and 0 interrupted iterations
+default   [   4% ] 04/25 VUs  0m11.0s/5m00.0s
+
+running (0m12.0s), 04/25 VUs, 29 complete and 0 interrupted iterations
+default   [   4% ] 04/25 VUs  0m12.0s/5m00.0s
+
+running (0m13.0s), 04/25 VUs, 33 complete and 0 interrupted iterations
+default   [   4% ] 04/25 VUs  0m13.0s/5m00.0s
+
+running (0m14.0s), 05/25 VUs, 39 complete and 0 interrupted iterations
+default   [   5% ] 05/25 VUs  0m14.0s/5m00.0s
+
+running (0m15.0s), 05/25 VUs, 44 complete and 0 interrupted iterations
+default   [   5% ] 05/25 VUs  0m15.0s/5m00.0s
+
+running (0m16.0s), 05/25 VUs, 49 complete and 0 interrupted iterations
+default   [   5% ] 05/25 VUs  0m16.0s/5m00.0s
+
+running (0m17.0s), 06/25 VUs, 55 complete and 0 interrupted iterations
+default   [   6% ] 06/25 VUs  0m17.0s/5m00.0s
+
+running (0m18.0s), 06/25 VUs, 62 complete and 0 interrupted iterations
+default   [   6% ] 06/25 VUs  0m18.0s/5m00.0s
+
+running (0m19.0s), 06/25 VUs, 69 complete and 0 interrupted iterations
+default   [   6% ] 06/25 VUs  0m19.0s/5m00.0s
+
+running (0m20.0s), 06/25 VUs, 75 complete and 0 interrupted iterations
+default   [   7% ] 06/25 VUs  0m20.0s/5m00.0s
+
+running (0m21.0s), 07/25 VUs, 82 complete and 0 interrupted iterations
+default   [   7% ] 07/25 VUs  0m21.0s/5m00.0s
+
+running (0m22.0s), 07/25 VUs, 91 complete and 0 interrupted iterations
+default   [   7% ] 07/25 VUs  0m22.0s/5m00.0s
+
+running (0m23.0s), 07/25 VUs, 99 complete and 0 interrupted iterations
+default   [   8% ] 07/25 VUs  0m23.0s/5m00.0s
+
+running (0m24.0s), 08/25 VUs, 106 complete and 0 interrupted iterations
+default   [   8% ] 08/25 VUs  0m24.0s/5m00.0s
+
+running (0m25.0s), 08/25 VUs, 116 complete and 0 interrupted iterations
+default   [   8% ] 08/25 VUs  0m25.0s/5m00.0s
+
+running (0m26.0s), 08/25 VUs, 125 complete and 0 interrupted iterations
+default   [   9% ] 08/25 VUs  0m26.0s/5m00.0s
+
+running (0m27.0s), 09/25 VUs, 133 complete and 0 interrupted iterations
+default   [   9% ] 09/25 VUs  0m27.0s/5m00.0s
+
+running (0m28.0s), 09/25 VUs, 144 complete and 0 interrupted iterations
+default   [   9% ] 09/25 VUs  0m28.0s/5m00.0s
+
+running (0m29.0s), 09/25 VUs, 156 complete and 0 interrupted iterations
+default   [  10% ] 09/25 VUs  0m29.0s/5m00.0s
+
+running (0m30.0s), 09/25 VUs, 165 complete and 0 interrupted iterations
+default   [  10% ] 09/25 VUs  0m30.0s/5m00.0s
+
+running (0m31.0s), 10/25 VUs, 174 complete and 0 interrupted iterations
+default   [  10% ] 10/25 VUs  0m31.0s/5m00.0s
+
+running (0m32.0s), 10/25 VUs, 186 complete and 0 interrupted iterations
+default   [  11% ] 10/25 VUs  0m32.0s/5m00.0s
+
+running (0m33.0s), 10/25 VUs, 198 complete and 0 interrupted iterations
+default   [  11% ] 10/25 VUs  0m33.0s/5m00.0s
+
+running (0m33.9s), 00/25 VUs, 208 complete and 10 interrupted iterations
+default ✗ [  11% ] 08/25 VUs  0m33.9s/5m00.0s
+
+     ✓ Status is 200 or 201
+     ✓ Response time < 1500ms
+     ✓ Response has token
+
+     checks.........................: 100.00% ✓ 642      ✗ 0   
+     data_received..................: 151 kB  4.5 kB/s
+     data_sent......................: 30 kB   879 B/s
+     http_req_blocked...............: avg=10.05ms  min=0s       med=1µs      max=299.09ms p(90)=2µs      p(95)=3.74µs  
+     http_req_connecting............: avg=4.93ms   min=0s       med=0s       max=172.59ms p(90)=0s       p(95)=0s      
+   ✓ http_req_duration..............: avg=373.75ms min=330.22ms med=366.21ms max=535.83ms p(90)=417.97ms p(95)=432.06ms
+       { expected_response:true }...: avg=373.75ms min=330.22ms med=366.21ms max=535.83ms p(90)=417.97ms p(95)=432.06ms
+   ✓ http_req_failed................: 0.00%   ✓ 0        ✗ 214 
+     http_req_receiving.............: avg=402.86µs min=48µs     med=85µs     max=41.56ms  p(90)=148.1µs  p(95)=354.74µs
+     http_req_sending...............: avg=432.14µs min=85µs     med=135µs    max=50.39ms  p(90)=249.7µs  p(95)=352.49µs
+     http_req_tls_handshaking.......: avg=5.09ms   min=0s       med=0s       max=164.99ms p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=372.91ms min=330.01ms med=364.39ms max=535.54ms p(90)=417.75ms p(95)=431.82ms
+     http_reqs......................: 214     6.310566/s
+     iteration_duration.............: avg=887.27ms min=831.31ms med=868.23ms max=1.15s    p(90)=935.86ms p(95)=1.01s   
+     iterations.....................: 208     6.133635/s
+     vus............................: 10      min=1      max=10
+     vus_max........................: 25      min=25     max=25
+

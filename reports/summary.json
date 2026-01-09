@@ -1,0 +1,147 @@
+{
+    "metrics": {
+        "http_req_duration": {
+            "avg": 373.7520607476636,
+            "min": 330.222,
+            "med": 366.21349999999995,
+            "max": 535.832,
+            "p(90)": 417.9788000000001,
+            "p(95)": 432.06064999999995,
+            "thresholds": {
+                "p(95)<1500": false
+            }
+        },
+        "data_sent": {
+            "count": 29818,
+            "rate": 879.2919001993962
+        },
+        "http_req_blocked": {
+            "avg": 10.054093457943932,
+            "min": 0,
+            "med": 0.001,
+            "max": 299.093,
+            "p(90)": 0.002,
+            "p(95)": 0.0037499999999999717
+        },
+        "iteration_duration": {
+            "med": 868.2365030000001,
+            "max": 1153.150339,
+            "p(90)": 935.8614535,
+            "p(95)": 1019.2132469999996,
+            "avg": 887.2784560336543,
+            "min": 831.310088
+        },
+        "http_reqs": {
+            "count": 214,
+            "rate": 6.310566323786666
+        },
+        "http_req_receiving": {
+            "med": 0.085,
+            "max": 41.568,
+            "p(90)": 0.14810000000000004,
+            "p(95)": 0.35474999999999995,
+            "avg": 0.4028644859813076,
+            "min": 0.048
+        },
+        "http_req_sending": {
+            "med": 0.135,
+            "max": 50.39,
+            "p(90)": 0.2497,
+            "p(95)": 0.3524999999999999,
+            "avg": 0.4321495327102805,
+            "min": 0.085
+        },
+        "data_received": {
+            "count": 151285,
+            "rate": 4461.187038757316
+        },
+        "checks": {
+            "fails": 0,
+            "passes": 642,
+            "value": 1
+        },
+        "vus": {
+            "value": 10,
+            "min": 1,
+            "max": 10
+        },
+        "http_req_duration{expected_response:true}": {
+            "min": 330.222,
+            "med": 366.21349999999995,
+            "max": 535.832,
+            "p(90)": 417.9788000000001,
+            "p(95)": 432.06064999999995,
+            "avg": 373.7520607476636
+        },
+        "vus_max": {
+            "value": 25,
+            "min": 25,
+            "max": 25
+        },
+        "iterations": {
+            "count": 208,
+            "rate": 6.133634557699189
+        },
+        "http_req_waiting": {
+            "p(95)": 431.82874999999996,
+            "avg": 372.9170467289715,
+            "min": 330.016,
+            "med": 364.39599999999996,
+            "max": 535.541,
+            "p(90)": 417.7528000000001
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 214,
+            "thresholds": {
+                "rate<0.03": false
+            },
+            "value": 0
+        },
+        "http_req_connecting": {
+            "max": 172.591,
+            "p(90)": 0,
+            "p(95)": 0,
+            "avg": 4.939869158878505,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_tls_handshaking": {
+            "p(95)": 0,
+            "avg": 5.0995700934579435,
+            "min": 0,
+            "med": 0,
+            "max": 164.996,
+            "p(90)": 0
+        }
+    },
+    "root_group": {
+        "groups": {},
+        "checks": {
+                "Status is 200 or 201": {
+                    "id": "25baa3c27a724407fc031a3d92f4f24a",
+                    "passes": 214,
+                    "fails": 0,
+                    "name": "Status is 200 or 201",
+                    "path": "::Status is 200 or 201"
+                },
+                "Response time < 1500ms": {
+                    "id": "9790ab7b3bcfa9d2ae5ff987f3dcc3b4",
+                    "passes": 214,
+                    "fails": 0,
+                    "name": "Response time < 1500ms",
+                    "path": "::Response time < 1500ms"
+                },
+                "Response has token": {
+                    "passes": 214,
+                    "fails": 0,
+                    "name": "Response has token",
+                    "path": "::Response has token",
+                    "id": "e532cb03aa38d68d8bb7f1f2bde805a0"
+                }
+            },
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+}
